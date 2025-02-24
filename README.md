@@ -9,15 +9,15 @@ rag_project
 
 │── scripts/
 
-│            ├── ingest_documents.py  (Dokümanları içeri aktaran Python kodu)
+│               ── ingest_documents.py  (Dokümanları içeri aktaran Python kodu)
 
-│            ├── query_model.py       (Modele soru soran Python kodu)
+│              ── query_model.py       (Modele soru soran Python kodu)
 
 │── documents/ (Şirket dokümanları)
 
-│           ├── policy.pdf
+│              ── policy.pdf
 
-│           ├── backup.xlsx
+│             ── backup.xlsx
 
 │           ├── security.docx
 
