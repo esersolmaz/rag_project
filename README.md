@@ -19,6 +19,7 @@ docker compose up -d
 
 # Yukarıdaki scriptleri çalıştırmadan önce, Docker içinde Python ortamı açalım.
 docker run --rm -it -v $(pwd):/app -w /app python:3.10 bash
+
 pip install langchain chromadb pypdf python-docx pandas openpyxl requests
 
 # Her gün dökümanları güncelleyip tekrar indekslemek için Linux cronjob ekleyebilirsin
