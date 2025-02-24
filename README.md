@@ -23,4 +23,5 @@ pip install langchain chromadb pypdf python-docx pandas openpyxl requests
 
 # Her gün dökümanları güncelleyip tekrar indekslemek için Linux cronjob ekleyebilirsin
 crontab -e
+
 0 3 * * * /usr/bin/python3 /path/to/ingest_documents.py
