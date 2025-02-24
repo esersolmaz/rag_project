@@ -1,5 +1,5 @@
 #Proje klasör yapısı:
-rag_project/
+rag_project
 │── docker-compose.yml
 │── ollama_data/ (Model dosyaları için)
 │── chroma_data/ (Veri tabanı için)
