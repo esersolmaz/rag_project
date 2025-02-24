@@ -1,4 +1,4 @@
-#Proje klasör yapısı:
+# Proje klasör yapısı:
 rag_project
 │── docker-compose.yml
 │── ollama_data/ (Model dosyaları için)
@@ -17,10 +17,10 @@ ollama pull deepseek/deepseek-r1
 # Docker Compose ile servisleri başlat
 docker compose up -d
 
-#Yukarıdaki scriptleri çalıştırmadan önce, Docker içinde Python ortamı açalım.
+# Yukarıdaki scriptleri çalıştırmadan önce, Docker içinde Python ortamı açalım.
 docker run --rm -it -v $(pwd):/app -w /app python:3.10 bash
 pip install langchain chromadb pypdf python-docx pandas openpyxl requests
 
-#Her gün dökümanları güncelleyip tekrar indekslemek için Linux cronjob ekleyebilirsin
+# Her gün dökümanları güncelleyip tekrar indekslemek için Linux cronjob ekleyebilirsin
 crontab -e
 0 3 * * * /usr/bin/python3 /path/to/ingest_documents.py
