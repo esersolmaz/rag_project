@@ -1,14 +1,24 @@
 # Proje klasör yapısı
 rag_project
+
 │── docker-compose.yml
+
 │── ollama_data/ (Model dosyaları için)
+
 │── chroma_data/ (Veri tabanı için)
+
 │── scripts/
+
 │   ├── ingest_documents.py  (Dokümanları içeri aktaran Python kodu)
+
 │   ├── query_model.py       (Modele soru soran Python kodu)
+
 │── documents/ (Şirket dokümanları)
+
 │   ├── policy.pdf
+
 │   ├── backup.xlsx
+
 │   ├── security.docx
 
 # Ollama modelini indir
