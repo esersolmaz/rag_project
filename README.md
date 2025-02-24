@@ -1,4 +1,4 @@
-# Proje klasör yapısı:
+# Proje klasör yapısı
 rag_project
 │── docker-compose.yml
 │── ollama_data/ (Model dosyaları için)
