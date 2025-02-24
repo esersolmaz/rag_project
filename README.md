@@ -2,7 +2,9 @@
 rag_project
 
 │── docker-compose.yml
+
 │── ollama_data/ (Model dosyaları için)
+
 │── chroma_data/ (Veri tabanı için)
 │── scripts/
 |--->|── ingest_documents.py  (Dokümanları içeri aktaran Python kodu)
